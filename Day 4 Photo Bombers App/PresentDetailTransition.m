@@ -11,7 +11,7 @@
 @implementation PresentDetailTransition
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
 {
-    return 0.3;
+    return 0.1;
 }
 
 -(void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext
