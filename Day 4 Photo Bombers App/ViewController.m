@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PhotoCollectionViewCell.h"
 #import <SimpleAuth/SimpleAuth.h>
+#import "DetailViewController.h"
 
 @interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -58,7 +59,7 @@
 - (void) downloadImages
 {
     NSURLSession *session = [NSURLSession sharedSession];
-    NSString *urlString = [[NSString alloc] initWithFormat:@"https://api.instagram.com/v1/tags/armansu/media/recent?access_token=%@", self.accessToken];
+    NSString *urlString = [[NSString alloc] initWithFormat:@"https://api.instagram.com/v1/tags/Kazakhstan/media/recent?access_token=%@", self.accessToken];
 //    NSLog(@"%@", urlString);
     NSURL *url = [[NSURL alloc] initWithString:urlString];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
@@ -108,5 +109,14 @@
     
     return cell;
 }
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *photo = self.photos[indexPath.row];
+    DetailViewController *viewController = [DetailViewController new];
+    viewController.modalPresentationStyle = UIModalPresentationCurrentContext;
+    viewController.photo = photo;
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
 
 @end
