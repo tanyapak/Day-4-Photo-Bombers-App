@@ -17,6 +17,7 @@
 		65339A741B312BA8007CE62E /* Day_4_Photo_Bombers_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65339A731B312BA8007CE62E /* Day_4_Photo_Bombers_AppTests.m */; };
 		65339A7F1B313E2B007CE62E /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65339A7E1B313E2B007CE62E /* PhotoCollectionViewCell.m */; };
 		65339A811B31424A007CE62E /* car_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65339A801B31424A007CE62E /* car_image.jpg */; };
+		65C08CB01B3193E800D2B1D3 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C08CAF1B3193E800D2B1D3 /* PhotoController.m */; };
 		6F97A09C5404E7CA018E6C93 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C008E10A7005073D83F3B1ED /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		65339A7D1B313E2B007CE62E /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		65339A7E1B313E2B007CE62E /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		65339A801B31424A007CE62E /* car_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car_image.jpg; path = ../../car_image.jpg; sourceTree = "<group>"; };
+		65C08CAE1B3193E800D2B1D3 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		65C08CAF1B3193E800D2B1D3 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
 		C008E10A7005073D83F3B1ED /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6F2F894730706191B4750A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +104,8 @@
 				65339A5F1B312BA8007CE62E /* ViewController.m */,
 				65339A7D1B313E2B007CE62E /* PhotoCollectionViewCell.h */,
 				65339A7E1B313E2B007CE62E /* PhotoCollectionViewCell.m */,
+				65C08CAE1B3193E800D2B1D3 /* PhotoController.h */,
+				65C08CAF1B3193E800D2B1D3 /* PhotoController.m */,
 				65339A611B312BA8007CE62E /* Main.storyboard */,
 				65339A641B312BA8007CE62E /* Images.xcassets */,
 				65339A661B312BA8007CE62E /* LaunchScreen.xib */,
@@ -292,6 +297,7 @@
 			files = (
 				65339A5A1B312BA8007CE62E /* AppDelegate.m in Sources */,
 				65339A5D1B312BA8007CE62E /* Day_4_Photo_Bombers_App.xcdatamodeld in Sources */,
+				65C08CB01B3193E800D2B1D3 /* PhotoController.m in Sources */,
 				65339A601B312BA8007CE62E /* ViewController.m in Sources */,
 				65339A7F1B313E2B007CE62E /* PhotoCollectionViewCell.m in Sources */,
 				65339A571B312BA8007CE62E /* main.m in Sources */,
